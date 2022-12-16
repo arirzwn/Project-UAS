@@ -1,9 +1,9 @@
-#include <iostream>
-#include <conio.h>
+#include <iostream> // Iostream adalah sebagai library dari c++ yang berisi fungsi-fungsi yang digunakan seperti cin dan cout
+#include <conio.h>  // <conio.h> juga termasuk library bawaan dari c++ yang berfungsi untuk menampilkan hasil antar muka kepada pengguna, fungsi yang ada di dalam liblary <conio.h> diantaranya dalah getch
 
-using namespace std;
+using namespace std; // menggunakan kode standar secara global, seperti cin, cout, string, dll.
 
-struct data
+struct data // Deklarasi kumpulan variable dengan tipe data yang berbeda pada sebuah variable struct
 {
     double nomor;
     char nama[50];
@@ -26,8 +26,8 @@ int main()
     bool ketemu;
 
 menuutama:
-    system("cls");
-    system("color f1");
+    system("cls");      // system ("cls") digunakan untuk membersihkan console sebelumnya untuk masuk kedalam tampilan selanjutnya
+    system("color f1"); // sebuah syntaks untuk memilih warna tampilan pada output diprogram c++
     cout << " ===============================================================\n\n";
     cout << "                 PROGRAM DATA KEPENDUDUKAN WARGA\n\n";
     cout << " ===============================================================\n\n";
