@@ -11,8 +11,8 @@ struct data // Deklarasi kumpulan variable dengan tipe data yang berbeda pada se
     char status[20];    // Variable "status" dengan tipe data char atau character dengan maks 20 karakter
     char pekerjaan[20]; // Variable "pekerjaan" dengan tipe data char atau character dengan maks 20 karakter
     char tempat[20];    // Variable "tempat" dengan tipe data char atau character dengan maks 20 karakter
-    char tanggal[20];
-    char almt[20];
+    char tanggal[20];   // Variable "tanggal" dengan tipe data char atau character dengan maks 20 karakter
+    char almt[20];      // Variable "alamat" dengan tipe data char atau character dengan maks 20 karakter
 };
 
 int main()
@@ -42,7 +42,7 @@ menuutama:
     cout << " Masukan Pilihan Anda (1-5) : ";
     cin >> menu; // Sebuah inputan untuk memilih menu dengan menggunakan nomor yang nantinya akan diteruskan kedalam variable "Menu"
 
-    if (menu == 1)
+    if (menu == 1) // Sebuah perulangan untuk pemilih menu dengan inputan indeks nomor
     {
         char ulang;
         do
