@@ -5,12 +5,12 @@ using namespace std; // menggunakan kode standar secara global, seperti cin, cou
 
 struct data // Deklarasi kumpulan variable dengan tipe data yang berbeda pada sebuah variable struct
 {
-    double nomor;
-    char nama[50];
-    char agama[20];
-    char status[20];
-    char pekerjaan[20];
-    char tempat[20];
+    double nomor;       // Variable "nomor" denga tipe data double karena pada variable ini hanya memuat barisan nomor
+    char nama[50];      // Variable "nama" dengan tipe data char atau character dengan maks 50 karakter
+    char agama[20];     // Variable "agama" dengan tipe data char atau character dengan maks 20 karakter
+    char status[20];    // Variable "status" dengan tipe data char atau character dengan maks 20 karakter
+    char pekerjaan[20]; // Variable "pekerjaan" dengan tipe data char atau character dengan maks 20 karakter
+    char tempat[20];    // Variable "tempat" dengan tipe data char atau character dengan maks 20 karakter
     char tanggal[20];
     char almt[20];
 };
@@ -40,7 +40,7 @@ menuutama:
     cout << " 6. Keluar\n\n";
     cout << " ===============================================================\n\n";
     cout << " Masukan Pilihan Anda (1-5) : ";
-    cin >> menu;
+    cin >> menu; // Sebuah inputan untuk memilih menu dengan menggunakan nomor yang nantinya akan diteruskan kedalam variable "Menu"
 
     if (menu == 1)
     {
